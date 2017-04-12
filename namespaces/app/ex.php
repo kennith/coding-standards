@@ -1,5 +1,11 @@
 <?php
-
+/**
+ * Using namespace without framework
+ * 
+ * If you do not want to "require_once" with all the classes, do autoload. 
+ * A reminder, __autoload function is depreciated starting 7.2, using 
+ * spl_autoload_register() is better. 
+ */
 namespace app;
 
 use app\core\my;
