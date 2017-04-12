@@ -1,0 +1,21 @@
+{
+    "name": "kennith/app-composer",
+    "description": "A namespace composer starter",
+    "type": "Project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kennith Leung",
+            "email": "kennith.leung@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "appcomposer\\": "src/",
+            "lib\\": "lib/"
+        }
+    }
+}
